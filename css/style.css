@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+/* -----Tags------ */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    max-width: 1536px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #404040;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #404040;
+}
+
+h4 {
+    font-size: 13px;
+    font-weight: 600;
+    color: #404040;
+}
+
+h6 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #838383;
+    line-height: 1.95;
+    margin: 18px 0;
+}
+
+/* ----Classes---- */
+
+.btnGreen {
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #32c69a;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-family: inherit;
+}
+
+/* ----------------------------------------------HEADER--------------------------------------------------- */
+
+header {
+    background-image: url(https://colorlib.com/preview/theme/health/images/index_hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 808px;
+
+    position: static;
+}
+
+/* +++++++++NAV1-HEADER ++++++++++ */
+
+#nav1 {
+    background-color: white;
+    padding: 0 10%;
+}
+
+#nav1 h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #404040;
+    vertical-align: text-top;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#nav1 span {
+    font-size: 36px;
+    color: #32c69a;
+    vertical-align: -3px;
+}
+
+#nav1 ul {
+    line-height: 1.5;
+    display: inline-block;
+    margin: 0 5% 0 36%;
+}
+
+#nav1 li {
+    padding-right: 20px;
+    display: inline-block;
+    margin-right: 8px;
+    border-right: 2px solid #838383;
+    font-size: 14px;
+    font-weight: 500;
+    color: #838383;
+    line-height: 1.5;
+}
+
+#nav1 li:last-child {
+    border-right: none;
+}
+
+#nav1 p {
+    display: inline-block;
+    font-weight: 600;
+    color: #404040;
+}
+
+#nav1 p span {
+    color: #32c69a;
+    transform: rotate(-35deg);
+    font-size: 33px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* +++++++++NAV1-HEADER ++++++++++ */
+
+#nav2 {
+    background: #32c69a;
+    padding: 1% 10%;
+    position: sticky;
+    top:0;
+}
+
+#nav2 ul, #nav2 li {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#nav2 li {
+    margin-right: 74px;
+}
+
+#nav2 a {
+    color: white;
+}
+
+#nav2 form {
+    display: inline-block;
+    margin-left: 8%;
+}
+
+#nav2 fieldset {
+    height: 40px;
+    background-color: white;
+}
+
+#nav2 input[type=search] {
+    height: 37px;
+    margin-right: 0;
+    width: 300px;
+    border: none;
+    padding: 5px 12px;
+}
+
+#nav2 form button {
+    height: 37px;
+    border: none;
+    background-color: white;
+}
+
+/* +++++++++section-HEADER ++++++++++ */
+
+header section {
+    height: 504px;
+    padding: 7% 10%;
+    text-align: left;
+}
+
+header section span:first-child {
+    font-size: 60px;
+    font-weight: 600;
+    color: #FFFFFF;
+    max-width: 570px;
+    line-height: 1.2;
+    display: block;
+}
+
+header section span:last-of-type {
+    font-size: 16px;
+    display: block;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 1.875;
+    max-width: 480px;
+    margin: 25px 0;
+}
+
+/* ----------------------------------------------MAIN--------------------------------------------------- */
+
+/* +++++++++appointment-section-MAIN ++++++++++ */
+
+#appointment-section {
+    padding: 6% 10%;
+    text-align: center;
+}
+
+.appointment-div {
+    display: inline-block;
+    width: 28%;
+    margin-right: 3%;
+    background: #f4f8fb;
+    vertical-align: top;
+}
+
+.appointment-div:last-child {
+    background-color: #e5ecf1;
+    padding: 2% 2%;
+}
+
+#appointment-section form h3 {
+    margin: 20px 0 31.35px;
+}
+
+#appointment-section select, input {
+    display: inline-block;
+    padding: 4% 5%;
+    border: none;
+    width: 339px;
+    margin: 0 auto 33px;
+    font-style: italic;
+    font-family: inherit;
+    color: gray;
+    font-size: 12px;
+}
+
+#appointment-section input {
+    width: 300px;
+    padding: 5% 6%;
+}
+
+.appointment-div img {
+    width: 100%;
+}
+
+.appointment-div div {
+    text-align: left;
+    padding: 10% 4%;
+}
+
+/* +++++++++appointmentAd-MAIN ++++++++++ */
+
+#appointmentAd-div {
+    width: 80%;
+    padding: 3% 10%;
+    text-align: left;
+    background-image: url(https://colorlib.com/preview/theme/health/images/cta_1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: -359px;
+    background-size: cover;
+    min-height: 168.5px;
+}
+
+#appointmentAd-div h3, #appointmentAd-div p {
+    margin-bottom: 0;
+    color: white;
+    display: inline-block;
+}
+
+#appointmentAd-div h3 {
+    font-size: xx-large;
+}
+
+#appointmentAd-div .btnGreen {
+    float: right;
+}
+
+/* +++++++++services-section-MAIN ++++++++++ */
+
+#services-section {
+    padding: 6% 10%;
+    background: #f4f8fb;
+}
+
+#services-section>p {
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+#services-section div {
+    width: 25%;
+    margin: 40px 40px 0;
+    display: inline-block;
+    text-align: left;
+}
+
+#services-section div img {
+    width: 15%;
+    float: left;
+    margin-right: 15px;
+}
+
+#services-section div h3 {
+    display: inline-block;
+    vertical-align: -15px;
+}
+
+#services-section .btnGreen {
+    margin-top: 30px;
+}
+
+/* +++++++++departments-section-MAIN ++++++++++ */
+
+#departments-section {
+    padding: 6% 10%;
+}
+
+#departments-section>p {
+    text-transform: uppercase;
+    margin: 5px auto 30px;
+}
+
+.card-departmentsSection {
+    width: 22%;
+    display: inline-block;
+    border-bottom: 5px solid #32c69a;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.card-departmentsSection img {
+    width: 100%;
+}
+
+.card-departmentsSection div {
+    padding: 6% 15%;
+}
+
+/* +++++++++FaqStuffNews-section-MAIN ++++++++++ */
+
+#FaqStuffNews-section {
+    text-align: left;
+    padding: 6% 10%;
+    background: #f4f8fb;
+}
+
+#FaqStuf-div {
+    width: 55%;
+    display: inline-block;
+    margin-right: 5%;
+    vertical-align: top;
+}
+
+#FaqStuf-div>p, #news-div>p {
+    margin: 5px 0 80px;
+    text-transform: uppercase;
+}
+
+#FaqStuf-div div:nth-of-type(1) h3 {
+    background-color: #32c69a;
+    line-height: 3;
+    color: white;
+    font-size: 1rem;
+}
+
+#FaqStuf-div div:nth-of-type(1) span {
+    float: left;
+    width: 50px;
+    height: 48px;
+    margin-right: 10px;
+    background-color: #404040;
+    text-align: center;
+}
+
+#FaqStuf-div div:nth-of-type(2) h3 {
+    background-color: white;
+    line-height: 3;
+    color: #404040;
+    font-size: 1rem;
+}
+
+#FaqStuf-div div:nth-of-type(2) span {
+    float: left;
+    width: 50px;
+    height: 48px;
+    margin-right: 10px;
+    background-color: #32c69a;
+    text-align: center;
+}
+
+#news-div {
+    display: inline-block;
+    width: 38%;
+}
+
+.newsCards {
+    margin-bottom: 30px;
+}
+
+.newsCards p {
+    margin: 5px;
+    font-size: 12px;
+}
+
+.newsCards img {
+    float: left;
+    margin-right: 30px;
+}
+
+/* ----------------------------------------------FOOTER--------------------------------------------------- */
+
+/* +++++++++section1-FOOTER ++++++++++ */
+
+#section1-footer {
+    padding: 6% 10%;
+    background-image: url(https://colorlib.com/preview/theme/health/images/footer.jpg);
+    background-repeat: no-repeat;
+}
+
+#section1-footer>div {
+    display: inline-block;
+}
+
+#section1-footer img {
+    width: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+#logoMedia-div {
+    padding: 2%;
+    vertical-align: top;
+    width: 22%;
+    text-align: left;
+    margin-right: 50px;
+}
+
+#logoMedia-div h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    vertical-align: text-top;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logoMedia-div p {
+    color: #d3d3d3;
+    margin: 30px 0;
+}
+
+#logoMedia-div span {
+    font-size: 36px;
+    color: #32c69a;
+    vertical-align: -3px;
+}
+
+#logoMedia-div h6 {
+    color: rgba(255, 255, 255, 0.48);
+    line-height: 1.5;
+    margin-top: 50px;
+    font-style: italic;
+}
+
+#logoMedia-div h6 span {
+    font-size: 13px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#contact-div {
+    width: 40%;
+    text-align: left;
+    position: relative;
+    padding: 2% 0;
+}
+
+#contact-div h3 {
+    color: white;
+    margin-bottom: 50px;
+}
+
+#contact-div input {
+    width: 30%;
+    background-color: #6a6d72;
+    color: white;
+    font-style: italic;
+    display: inline-block;
+    height: 10px;
+    border: none;
+}
+
+#contact-div textarea {
+    width: 75%;
+    background-color: #6a6d72;
+    color: white;
+    font-style: italic;
+    display: block;
+    margin-bottom: 40px;
+    border: none;
+    padding: 15px;
+}
+
+#contact-div .btnGreen {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+}
+
+#openingHours-div {
+    background-color: #23201f;
+    color: white;
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    padding: 2%;
+}
+
+#openingHours-div h3 {
+    color: white;
+    margin-bottom: 50px;
+    background-color: #32c69a;
+    display: inline-block;
+    padding: 2px;
+}
+
+#openingHours-div table {
+    text-align: left;
+}
+
+#openingHours-div table td {
+    margin: 0 30px 50px 0;
+    font-size: small;
+}
+
+#openingHours-div table td:nth-of-type(2) {
+    float: right;
+}
+
+#openingHours-div table td:nth-of-type(1) {
+    float: left;
+}
+
+/* +++++++++section2-FOOTER ++++++++++ */
+
+#section2-footer {
+    padding: 0px 10%;
+    background-color: #211d1c;
+    text-align: left;
+}
+
+#section2-footer div {
+    display: inline-block;
+}
+
+#section2-footer div li {
+    display: inline-block;
+}
+
+#section2-footer li a {
+    color: #d3d3d3;
+    font-size: x-small;
+}
+
+#div1-footer {
+    width: 50%;
+}
+
+#div1-footer li {
+    margin-right: 60px;
+}
+
+#div2-footer li {
+    padding-right: 20px;
+    display: inline-block;
+    margin-right: 8px;
+    border-right: 2px solid #d3d3d3;
+}
+
+#div2-footer li:last-child {
+    border-right: none;
+}
+
+#div3-footer {
+    margin-left: 131px;
+}
+
+#div3-footer p {
+    display: inline-block;
+    color: #32c69a;
+    font-weight: bold;
+    margin: 0px 0;
+}
+#div3-footer span { 
+       color: #32c69a;
+    transform: rotate(-35deg);
+    font-size: 33px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}

@@ -60,7 +60,6 @@ header {
     background-size: cover;
     background-attachment: fixed;
     height: 808px;
-
     position: static;
 }
 
@@ -103,6 +102,10 @@ header {
     line-height: 1.5;
 }
 
+#nav1 li a {
+    color: #838383;
+}
+
 #nav1 li:last-child {
     border-right: none;
 }
@@ -128,7 +131,7 @@ header {
     background: #32c69a;
     padding: 1% 10%;
     position: sticky;
-    top:0;
+    top: 0;
 }
 
 #nav2 ul, #nav2 li {
@@ -593,8 +596,9 @@ header section span:last-of-type {
     font-weight: bold;
     margin: 0px 0;
 }
-#div3-footer span { 
-       color: #32c69a;
+
+#div3-footer span {
+    color: #32c69a;
     transform: rotate(-35deg);
     font-size: 33px;
     display: inline-block;
